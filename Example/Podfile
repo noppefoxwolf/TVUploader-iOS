@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'TVUploader_Example' do
+  pod 'TVUploader', :path => '../'
+  
+  target 'TVUploader_Tests' do
+    inherit! :search_paths
+  end
+end

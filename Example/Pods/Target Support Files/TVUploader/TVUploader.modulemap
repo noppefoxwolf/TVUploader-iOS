@@ -1,0 +1,6 @@
+framework module TVUploader {
+  umbrella header "TVUploader-umbrella.h"
+
+  export *
+  module * { export * }
+}
