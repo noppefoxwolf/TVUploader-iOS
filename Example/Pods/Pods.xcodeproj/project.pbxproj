@@ -157,7 +157,7 @@
 		29500AAC45578A337A3F033057389647 /* NSError+STTwitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+STTwitter.m"; path = "STTwitter/NSError+STTwitter.m"; sourceTree = "<group>"; };
 		2A1C5A2177085B7E853438D694CC7DEA /* TVUploader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TVUploader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD9C727940DB1F9A4D685CADED3B303 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B03586191994B97B3C5BBE68E3D4D50 /* AVUploader+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVUploader+Extensions.swift"; sourceTree = "<group>"; };
+		2B03586191994B97B3C5BBE68E3D4D50 /* AVUploader+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVUploader+Extensions.swift"; path = "../STTwitter/Classes/AVUploader+Extensions.swift"; sourceTree = "<group>"; };
 		322C573E4AB29F3273D7BECFA2AB3926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3269153D8025B3588F64349ED51694CA /* STHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STHTTPRequest.m; path = STTwitter/Vendor/STHTTPRequest.m; sourceTree = "<group>"; };
 		33595D353EDEEBFA84482D39934D2166 /* Unbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Unbox-dummy.m"; sourceTree = "<group>"; };
@@ -167,7 +167,7 @@
 		3FA1204B0876D37FE460CEBDB08AD9EC /* NSDateFormatter+STTwitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+STTwitter.h"; path = "STTwitter/NSDateFormatter+STTwitter.h"; sourceTree = "<group>"; };
 		48609C633BF344E17DF8E1B2C41EF5A9 /* STTwitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STTwitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B95A3587C85F5F469BE82B0FD6D20C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		49E9039276101683E969960775FD1F72 /* APIExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIExtensions.swift; sourceTree = "<group>"; };
+		49E9039276101683E969960775FD1F72 /* APIExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIExtensions.swift; path = ../STTwitter/Classes/APIExtensions.swift; sourceTree = "<group>"; };
 		4C2C54B084937AFA1B3689646ACDB32E /* STTwitterRequestProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterRequestProtocol.h; path = STTwitter/STTwitterRequestProtocol.h; sourceTree = "<group>"; };
 		4D6C723A25CDA1B9EEDD1155359FAE38 /* NSDateFormatter+STTwitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+STTwitter.m"; path = "STTwitter/NSDateFormatter+STTwitter.m"; sourceTree = "<group>"; };
 		4EC40BD1952EBCB67A841AC411308C69 /* Pods-TVUploader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVUploader_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		5C68185AD19B015A486CF61E5A1BC2F0 /* Pods-TVUploader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TVUploader_Example.modulemap"; sourceTree = "<group>"; };
 		5D38D36DFAC727EDF9B72EDB56A53AE0 /* JSONSyntaxHighlight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONSyntaxHighlight.m; path = STTwitter/Vendor/JSONSyntaxHighlight.m; sourceTree = "<group>"; };
 		5D8880B5E515A603EE8252B081B95FB0 /* SwiftTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftTask.swift; path = SwiftTask/SwiftTask.swift; sourceTree = "<group>"; };
-		5EEC4BC1F1B30513CA3CA888A16EA0FE /* Video.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		5EEC4BC1F1B30513CA3CA888A16EA0FE /* Video.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Video.swift; path = ../STTwitter/Classes/Video.swift; sourceTree = "<group>"; };
 		603994C69403F0E3913EDB2E70AFE7A7 /* Pods-TVUploader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVUploader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		60FF38F0FCC35BC2248CF9ACF374D66A /* STTwitterOSRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterOSRequest.m; path = STTwitter/STTwitterOSRequest.m; sourceTree = "<group>"; };
 		613D7E1F4F6969ED72359F9CC7BAC930 /* BAVPlistNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BAVPlistNode.h; path = STTwitter/Vendor/BAVPlistNode.h; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		75A081D6C2D49D9EA6E4794D88227340 /* STTwitterAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterAPI.m; path = STTwitter/STTwitterAPI.m; sourceTree = "<group>"; };
 		79C9D805F2B795864FDF4CD7C514C095 /* STTwitter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = STTwitter.modulemap; sourceTree = "<group>"; };
 		7AF83215F1106DCE0781F3AAE5365D7E /* SwiftTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85DE05F04B3B123E2CB3A9BC91F8A67D /* STTwitter+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "STTwitter+Extensions.swift"; sourceTree = "<group>"; };
+		85DE05F04B3B123E2CB3A9BC91F8A67D /* STTwitter+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "STTwitter+Extensions.swift"; path = "../STTwitter/Classes/STTwitter+Extensions.swift"; sourceTree = "<group>"; };
 		8AFB6A4232BB1B9CB4095D93B043F2E4 /* TVUploader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVUploader-umbrella.h"; sourceTree = "<group>"; };
 		8B7892712C61CFDBA8E181418A9E38CA /* STTwitterOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterOAuth.h; path = STTwitter/STTwitterOAuth.h; sourceTree = "<group>"; };
 		8BA6652C806D3E21CB8A27711B0ED39A /* Pods-TVUploader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TVUploader_Tests.modulemap"; sourceTree = "<group>"; };
@@ -213,7 +213,7 @@
 		B98BD5B681B013A0894C2630F7F2D540 /* BAVPlistNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BAVPlistNode.m; path = STTwitter/Vendor/BAVPlistNode.m; sourceTree = "<group>"; };
 		C0D6D5EA0F6F335DF6F944E2BBE9B302 /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32BB8980357D38CB76A02914F4FFE8E /* SwiftTask.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftTask.xcconfig; sourceTree = "<group>"; };
-		C4A0286042BCF3E2FC308B2DD5ADAA95 /* ProcessingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProcessingInfo.swift; sourceTree = "<group>"; };
+		C4A0286042BCF3E2FC308B2DD5ADAA95 /* ProcessingInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProcessingInfo.swift; path = ../STTwitter/Classes/ProcessingInfo.swift; sourceTree = "<group>"; };
 		C84040C89E771E7640602FB316092F76 /* Pods-TVUploader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVUploader_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C892AB9E773B15931836551AFC304196 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Twitter.framework; sourceTree = DEVELOPER_DIR; };
 		C9147704ECDF7962432ED9A8202CB02B /* Pods_TVUploader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVUploader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -222,7 +222,7 @@
 		CFE1B7853FCCAEF37563E111C9136547 /* SwiftTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTask-dummy.m"; sourceTree = "<group>"; };
 		D0A6AD5405F9F895150C7A556C33DF66 /* _Atomic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Atomic.swift; path = SwiftTask/_Atomic.swift; sourceTree = "<group>"; };
 		D5420F091292DCE7BF8035B2233784E8 /* Pods-TVUploader_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVUploader_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D6C2B42BF617B0F5549FF75139FF1C92 /* AsyncFinalizeResponce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AsyncFinalizeResponce.swift; sourceTree = "<group>"; };
+		D6C2B42BF617B0F5549FF75139FF1C92 /* AsyncFinalizeResponce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncFinalizeResponce.swift; path = ../STTwitter/Classes/AsyncFinalizeResponce.swift; sourceTree = "<group>"; };
 		D911C6D121B939EF01D4BAC3C849CE4E /* Unbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2B6620EE70E74D5EF625C35B5907AC /* SwiftTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTask-umbrella.h"; sourceTree = "<group>"; };
 		DC5D6375CE67B40DDF4E4E7AD98B29FA /* STHTTPRequest+STTwitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STHTTPRequest+STTwitter.h"; path = "STTwitter/STHTTPRequest+STTwitter.h"; sourceTree = "<group>"; };
@@ -237,7 +237,7 @@
 		E795871EC09BA10830F9B41857FD7371 /* SwiftTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A4F71BBF469A0E6DE1A1FDF5F03CA3 /* STTwitterStreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterStreamParser.m; path = STTwitter/STTwitterStreamParser.m; sourceTree = "<group>"; };
 		EC89D1859A4C553DA5C39E386BB164E7 /* Pods-TVUploader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVUploader_Example-dummy.m"; sourceTree = "<group>"; };
-		F15F9685729C5B29E4C80A6CB14BF15E /* AsyncInitResponce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AsyncInitResponce.swift; sourceTree = "<group>"; };
+		F15F9685729C5B29E4C80A6CB14BF15E /* AsyncInitResponce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncInitResponce.swift; path = ../STTwitter/Classes/AsyncInitResponce.swift; sourceTree = "<group>"; };
 		F19BB1DCB19696728B153B7024B2BEDF /* Unbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unbox-umbrella.h"; sourceTree = "<group>"; };
 		F28E1CCDA59ECA50C91ACFBA750F294C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F355126B4829EC030560D3733815A88A /* STTwitterAppOnly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterAppOnly.m; path = STTwitter/STTwitterAppOnly.m; sourceTree = "<group>"; };
@@ -323,6 +323,13 @@
 		0B2F65D8D1006D9CD82CDE86FD8E6DD8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				49E9039276101683E969960775FD1F72 /* APIExtensions.swift */,
+				D6C2B42BF617B0F5549FF75139FF1C92 /* AsyncFinalizeResponce.swift */,
+				F15F9685729C5B29E4C80A6CB14BF15E /* AsyncInitResponce.swift */,
+				2B03586191994B97B3C5BBE68E3D4D50 /* AVUploader+Extensions.swift */,
+				C4A0286042BCF3E2FC308B2DD5ADAA95 /* ProcessingInfo.swift */,
+				85DE05F04B3B123E2CB3A9BC91F8A67D /* STTwitter+Extensions.swift */,
+				5EEC4BC1F1B30513CA3CA888A16EA0FE /* Video.swift */,
 				E16EAC3D11AF1BFB882C7BB021D043DA /* SpecificationValidater.swift */,
 				A4862D8639AB949BA413007CC95C5D65 /* TVUploader.swift */,
 			);
@@ -374,14 +381,6 @@
 			path = "Target Support Files/Pods-TVUploader_Example";
 			sourceTree = "<group>";
 		};
-		32CE0260DC85027D6C9D520D8E645BC6 /* STTwitter */ = {
-			isa = PBXGroup;
-			children = (
-				5ACBDAE01DB2981DF84A51D40438A620 /* TVUploader */,
-			);
-			name = STTwitter;
-			sourceTree = "<group>";
-		};
 		33458FFFD83C4F0C84AB51B6F798357F /* Pods-TVUploader_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,14 +422,6 @@
 				2653DEC3B325B9138D04503230EC5A9F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5ACBDAE01DB2981DF84A51D40438A620 /* TVUploader */ = {
-			isa = PBXGroup;
-			children = (
-				807533677CDE2CBB24E00279640146C9 /* STTwitter */,
-			);
-			path = TVUploader;
 			sourceTree = "<group>";
 		};
 		61F687132B6BE6B6F7C5400335B70339 /* STTwitter */ = {
@@ -500,14 +491,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		807533677CDE2CBB24E00279640146C9 /* STTwitter */ = {
-			isa = PBXGroup;
-			children = (
-				A80537C543AFFC372F111B88827EA652 /* Classes */,
-			);
-			path = STTwitter;
-			sourceTree = "<group>";
-		};
 		99957A0C91AAF54AC0526F31C0A3A1D4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -534,20 +517,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TVUploader";
-			sourceTree = "<group>";
-		};
-		A80537C543AFFC372F111B88827EA652 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				49E9039276101683E969960775FD1F72 /* APIExtensions.swift */,
-				D6C2B42BF617B0F5549FF75139FF1C92 /* AsyncFinalizeResponce.swift */,
-				F15F9685729C5B29E4C80A6CB14BF15E /* AsyncInitResponce.swift */,
-				2B03586191994B97B3C5BBE68E3D4D50 /* AVUploader+Extensions.swift */,
-				C4A0286042BCF3E2FC308B2DD5ADAA95 /* ProcessingInfo.swift */,
-				85DE05F04B3B123E2CB3A9BC91F8A67D /* STTwitter+Extensions.swift */,
-				5EEC4BC1F1B30513CA3CA888A16EA0FE /* Video.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		AF5059BB1B7DB918BE120E5665D5B183 /* Pods */ = {
@@ -594,7 +563,6 @@
 		F1BDD09D5E9073ED7407254BD57588E4 /* TVUploader */ = {
 			isa = PBXGroup;
 			children = (
-				32CE0260DC85027D6C9D520D8E645BC6 /* STTwitter */,
 				9DBCBBD6DD485492DD13A2F78867E3B9 /* Support Files */,
 				6490C89524B0DC8F154F8AA23989F3B2 /* TVUploader */,
 			);
