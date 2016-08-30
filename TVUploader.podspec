@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://noppelab.com'
+  s.homepage         = 'http://noppelab.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tomoya Hirano' => 'cromteria@gmail.com' }
-  s.source           = { :git => 'git@github.com:noppefoxwolf/TVUploader-iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/noppefoxwolf/TVUploader-iOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
