@@ -256,7 +256,7 @@ public class TVVideoInfo: CustomStringConvertible {
   
   private func getFileSize() -> UInt64 {
     do {
-      var attr: NSDictionary = try NSFileManager.defaultManager().attributesOfItemAtPath(videoUrl.path!)
+      let attr: NSDictionary = try NSFileManager.defaultManager().attributesOfItemAtPath(videoUrl.path!)
       return attr.fileSize()
     } catch {
       return 0

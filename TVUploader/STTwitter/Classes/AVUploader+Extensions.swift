@@ -11,6 +11,7 @@ import STTwitter
 import SwiftTask
 import Unbox
 
+public class TVUploaderAPI: STTwitterAPI {}
 public extension TVUploaderAPI {
   enum UploadState {
     case INIT
