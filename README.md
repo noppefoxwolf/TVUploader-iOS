@@ -22,7 +22,7 @@ pod "TVUploader"
 
 ## Usage
 
-###Print Video Infomation
+###Print the video information
 
 ```swift
     let videoUrl1 = NSBundle.mainBundle().URLForResource("sample1", withExtension: "mp4")!
@@ -30,7 +30,20 @@ pod "TVUploader"
     print(info1)
 ```
 
-###Video format validation for Twitter.
+infomation example
+```
+---- Video Track Infomation ---
+File Path: file://TVUploader_Example.app/sample.mp4
+Duration:  2.83182222222222sec
+File Size: 0.0930662MB (97587B)
+Dimension: 320.0 x 180.0 [width x height]
+Aspect Ratio: 1.77778
+Channel Count: 2
+FPS: 24.0128
+--------------------------
+```
+
+###Video format validation for Twitter
 
 ```swift    
     TVValidater(videoInfo: info1, postType: .Async).validationCheckTask().success { (safes) in
@@ -40,13 +53,19 @@ pod "TVUploader"
     }
 ```
 
-validation result
-```console
+validation result example of success
+```
 [TVUploader.TVValidater.FormatValid.durationValid, TVUploader.TVValidater.FormatValid.fileSizeValid, TVUploader.TVValidater.FormatValid.dimensionsValid, TVUploader.TVValidater.FormatValid.aspectRatioValid, TVUploader.TVValidater.FormatValid.frameRateValid, TVUploader.TVValidater.FormatValid.audioChannelValid, TVUploader.TVValidater.FormatValid.audioFormatValid]
 ```
 
+validation result example of failure
+It will be called at the time verification fails.
+```
+Optional(TVUploader.TVValidater.FormatError.InvalidDuration)
+```
+
 ###post video to twitter
-supported async and sync.
+Supports synchronous and asynchronous(chunked) upload.
 ```swift
     let api = TVUploaderAPI(OAuthConsumerKey: "",
                            consumerSecret: "",
@@ -77,5 +96,4 @@ supported async and sync.
 Tomoya Hirano, cromteria@gmail.com
 
 ## License
-
 TVUploader is available under the MIT license. See the LICENSE file for more info.
