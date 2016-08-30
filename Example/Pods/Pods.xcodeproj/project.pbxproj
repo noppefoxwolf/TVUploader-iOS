@@ -663,8 +663,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82E8F667CA7C9729B554649980493A33 /* Build configuration list for PBXNativeTarget "TVUploader" */;
 			buildPhases = (
-				D7A5CB4D6F9E20025198EEA6CE306BFE /* Sources */,
 				454B47E3953F38ABC1A5DC15E708F247 /* Frameworks */,
+				D7A5CB4D6F9E20025198EEA6CE306BFE /* Sources */,
 				2718E165CFF83434498AC45C9D2FAF9A /* Headers */,
 			);
 			buildRules = (
