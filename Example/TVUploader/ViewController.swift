@@ -15,8 +15,10 @@ class ViewController: UIViewController {
     
     let videoUrl1 = NSBundle.mainBundle().URLForResource("sample1", withExtension: "mp4")!
     let info1 = TVVideoInfo(videoUrl: videoUrl1)
+    //video info
     print(info1)
     
+    //validation
     TVValidater(videoInfo: info1, postType: .Async).validationCheckTask().success { (safes) in
       print(safes)
       }.failure { (error, isCancelled) in
@@ -27,7 +29,7 @@ class ViewController: UIViewController {
                            consumerSecret: "",
                            oauthToken: "",
                            oauthTokenSecret: "")
-    
+    //upload video
     api.asyncVideoUpload(videoUrl1).success { (mediaId) -> TVUploaderAPI.PostTask in
       return api.postStatusUpdateTask("", mediaId: mediaId)
     }.success { (_) in
