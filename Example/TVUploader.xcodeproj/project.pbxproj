@@ -15,6 +15,8 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B16C91CD27B7CDF10B7D7D44 /* Pods_TVUploader_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008CD412626D797B46A8F34E /* Pods_TVUploader_Example.framework */; };
 		D5F01551D442929CE3392FAC /* Pods_TVUploader_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034102F4943F966F88CAA0D2 /* Pods_TVUploader_Tests.framework */; };
+		D70B1FEA1D76749E003230F3 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D70B1FE91D76749E003230F3 /* sample.mp4 */; };
+		D70B1FEB1D76749E003230F3 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D70B1FE91D76749E003230F3 /* sample.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		9FBAC3CF564B6A6CA6B5AF5C /* Pods-TVUploader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVUploader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVUploader_Example/Pods-TVUploader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB3EC2956523DBF29FE34C4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BD0B1E3BF6F8BD65E29A1F3B /* Pods-TVUploader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVUploader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVUploader_Tests/Pods-TVUploader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D70B1FE91D76749E003230F3 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 		607FACD21AFB9204008FA782 /* Example for TVUploader */ = {
 			isa = PBXGroup;
 			children = (
+				D70B1FE81D767494003230F3 /* raw */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -157,6 +161,14 @@
 				BB3EC2956523DBF29FE34C4E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D70B1FE81D767494003230F3 /* raw */ = {
+			isa = PBXGroup;
+			children = (
+				D70B1FE91D76749E003230F3 /* sample.mp4 */,
+			);
+			name = raw;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +261,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				D70B1FEA1D76749E003230F3 /* sample.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70B1FEB1D76749E003230F3 /* sample.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,19 +1,19 @@
 {
   "name": "TVUploader",
-  "version": "0.1.0",
-  "summary": "A short description of TVUploader.",
+  "version": "0.1.1",
+  "summary": "Twitter Video Uploader + Format Validater",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/TVUploader",
+  "homepage": "http://noppelab.com",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Tomoya Hirano": "tomoya.hirano@dena.com"
+    "Tomoya Hirano": "cromteria@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/TVUploader.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/noppefoxwolf/TVUploader-iOS.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

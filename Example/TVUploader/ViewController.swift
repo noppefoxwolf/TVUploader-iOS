@@ -13,7 +13,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    let videoUrl1 = NSBundle.mainBundle().URLForResource("sample1", withExtension: "mp4")!
+    let videoUrl1 = NSBundle.mainBundle().URLForResource("sample", withExtension: "mp4")!
     let info1 = TVVideoInfo(videoUrl: videoUrl1)
     //video info
     print(info1)
