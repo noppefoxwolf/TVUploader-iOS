@@ -200,7 +200,7 @@ public class TVValidater {
   
   func audioChannelValidate() -> ValidationTask {
     return ValidationTask { (progress, fulfill, reject, configure) in
-      let limit = [1, 2]
+      let limit = [0, 1, 2] // none mono stereo
       let channelCount  = self.videoInfo.channelCount
       let isValid = limit.contains(channelCount)
       if isValid {

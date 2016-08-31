@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }.success { (_) in
       print("video1 upload success")
     }.failure { (error, isCancelled) in
-      print("video1 upload failure")
+      print(error)
     }
   }
 
